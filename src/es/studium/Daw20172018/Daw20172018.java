@@ -32,6 +32,10 @@ public class Daw20172018 extends HttpServlet
 	{
 		// TODO Auto-generated method stub
 		response.getWriter().append("Served at: ").append(request.getContextPath());
+		res.setContentType("text/html");
+		PrintWriter pw = res.getWriter();
+		pw.println("<HTML>");
+		pw.println("</HTML>");
 	}
 
 	/**
