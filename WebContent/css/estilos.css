@@ -5,3 +5,6 @@ p {
 .negrita{
 	font-weight: bold;
 }
+.cursiva{
+	font-style: italic;
+}
