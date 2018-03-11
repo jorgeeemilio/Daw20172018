@@ -17,9 +17,5 @@
 <form action="src/es/studium/Daw20172018/Daw20172018.java">
 	<input type="submit" value="Ir al Servlet">
 </form>
-
-<p class="text">Esto me ocurre a veces con las prácticas de Jorge :)<p>
-<img src="img/muerte_pc.gif"> 
-
 </body>
 </html>
