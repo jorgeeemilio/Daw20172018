@@ -1,6 +1,7 @@
 package es.studium.Daw20172018;
 
 import java.io.IOException;
+import java.util.Date;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -35,6 +36,9 @@ public class Daw20172018 extends HttpServlet
 		res.setContentType("text/html");
 		PrintWriter pw = res.getWriter();
 		pw.println("<HTML>");
+		DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
+		Date date = new Date();
+		System.out.println(dateFormat.format(date));
 		pw.println("</HTML>");
 	}
 
